@@ -18,3 +18,6 @@ you can create multiple commit. and every previous commit is a ancestor to next 
 ### Git Branches 
 * branch early, and branch often
 
+### git commit branches and merge branches to main
+
+adding more changes. to merge the file and make conflicts
