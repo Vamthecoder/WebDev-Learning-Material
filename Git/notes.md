@@ -44,3 +44,5 @@ adding more changes. to merge the file and make conflicts
 ## Git checkout -b [branch name] - to checkout and create a new branch at the same time. 
 
 ## touch .gitignore - to create a new file to keep your texts hidden from main git cloud/ repo. you can put any file name to hide it from git to be uploaded on repo. 
+
+## Git push - to publish your commit to repos
