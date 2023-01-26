@@ -67,4 +67,36 @@ adding more changes. to merge the file and make conflicts
 
 ## "[folder name]/" -  To ignore the whole folder from git by mentioning foldername/ in .gitignore .
 
-##
+# DAY4
+
+## "git diff" - To check whomever working project made changes in the prject or repo. it compares with staged data and modified (working).
+
+## "git restore --staged [filename]" - To unstage the staged file.
+
+## "git restore [filename]" - To restore the modified file. It restore the deleted data from local file source code.
+
+## "git rm [filename]" - To remove file from local storage.
+
+## "git rm --cached [filename]" - To remove file cache if it has been in commit after putting any file in ignore or after deleting the file cache remains.
+
+## "git remote add origin [link]" - To add repo from remote or github with the help of link.
+
+## "git pull" - To pull the new data or updated data from branches to master.
+
+## "git config --global alias.[word] [attribute/command]" - To make a short name of your commands or attributes. you can create by using this alias. Ex: S for status - git config --global  alias.s status or git config --global alias.c checkout / git config --global alias.sc 'commit -a -m' .
+
+## "git rebase" - To push your branch in to main without keeping a different branch like it always a part of the main. and rebase will always work while being in branches. Ex: 'Git rebase main' while being in the Branch*
+
+## "git checkout [commitID]" - To checkout to commit and see Head. Head is the last commit has made in the repo. 
+
+## Note: Hash is commit's ID. which is unique and used to see which commit was made by user and when in git log
+
+## git checkout [branchname^] - To checkout to previous commit from last commit with the help of caret (^). without using commit hash. 
+
+## "git branch -f main HEAD~[number]" - To force move a branch to any commit over head. Ex: if you use 'HEAD~5' it will push main branch 5 commits above the HEAD. 
+
+## "git branch -f main [commithash]" - To move any branch to any specific commit by using commit hash/unique ID. 
+
+## "git reset HEAD~1" - It will move a branch backwards as if the commit had never been made in the first place. Tts method of "rewriting history" doesn't work for remote branches that others are using.
+
+## "git revert" - In order to reverse changes and share those reversed changes with others.
