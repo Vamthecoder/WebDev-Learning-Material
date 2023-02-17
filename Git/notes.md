@@ -100,3 +100,4 @@ adding more changes. to merge the file and make conflicts
 ## "git reset HEAD~1" - It will move a branch backwards as if the commit had never been made in the first place. Tts method of "rewriting history" doesn't work for remote branches that others are using.
 
 ## "git revert" - In order to reverse changes and share those reversed changes with others.
+
